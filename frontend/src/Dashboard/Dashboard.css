@@ -1,0 +1,84 @@
+.Dashboard{
+    display: flex;
+    width: auto
+}
+
+.welcomeDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.welcomeDiv>h1{
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.MainDashboard{
+    width: 100vw;
+}
+
+.newEmployeeBtn {
+    margin-right: 40px;
+    border-radius: 50px;
+    width: 150px;
+    border-style: none;
+    background-color: rgb(223, 149, 11);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.welcomeDiv>button:hover {
+    
+    background-color: rgb(232, 163, 35);
+    cursor: pointer;
+    
+    
+}
+
+.card {
+    width: 260px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    font-family: Arial, sans-serif;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    font-size: 14px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.count {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.EmployeesInfo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.allEmployeesTitle{
+  color: rgb(43, 167, 111);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 50px;
+}

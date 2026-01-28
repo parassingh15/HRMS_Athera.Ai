@@ -1,0 +1,68 @@
+.Navbar{
+    background-color: rgb(0, 0, 24);
+    color: white;
+    height: 100vh;
+}
+.adminName{
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.adminName>i{
+    font-size: 40px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.adminName>div{
+    line-height: 0.1;
+    margin-right: 15px;
+}
+
+.addEmployeeCard{
+    width: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 67);
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+}
+
+.addEmployeeCard>button{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.menuLinks{
+    padding-top: 30px;
+    
+}
+
+.menuLinkList{
+    color: white;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menuLinkList:hover{
+    background-color: rgb(43, 167, 111);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.addEmployeeBtn{
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-style: none;
+    background-color: rgb(43, 167, 111);
+    color: white;
+    padding: 5px;
+}

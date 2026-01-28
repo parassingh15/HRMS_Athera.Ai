@@ -1,0 +1,19 @@
+.AddEmployee{
+    display: flex;
+}
+
+.addEmployeeForm{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.addEmployeeForm>p{
+    text-align: center;
+    font-weight: 500;
+    color: grey;
+}
+
+.addEmployeeForm>form>button{
+    justify-content: center;
+}
+

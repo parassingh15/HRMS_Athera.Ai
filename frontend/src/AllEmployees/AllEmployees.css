@@ -1,0 +1,79 @@
+/* .AllEmployees{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-left: 25px;
+}
+.employeeCard {
+    width: 77vw;
+    padding: 16px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    font-family: Arial, sans-serif;
+}
+.employeeCard-header {
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    font-size: 14px;
+}
+
+.employeeCard-body {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 8px; */
+    /* margin: 10px 0; */
+    /* text-align: center;
+} 
+*/ 
+
+.AllEmployees {
+  padding: 20px;
+}
+
+.employeeCard {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.employeeCard-header {
+  display: flex;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.employeeCard-header p {
+  flex: 1; /* equal width for all columns */
+  margin: 0;
+  word-wrap: break-word;
+}
+
+/* Body */
+.employeeCard-body {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.employeeCard-body p {
+  flex: 1; /* equal width */
+  margin: 0;
+  word-wrap: break-word; /* wrap long email addresses */
+}
+
+/* Delete icon */
+.employeeCard-body i {
+  flex: 1;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1;
+}
