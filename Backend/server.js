@@ -133,10 +133,12 @@ app.get("/api/attendance", async (req, res) => {
   }
 });
 
+const PORT = process.env.PORT || 5000;
+
 
 // Test route
 app.get("/", (req, res) => res.send("API is running"));
 
 // Start server
-app.listen(5000, "localhost", () => console.log("Server running on port 5000"));
+app.listen(PORT, "localhost", () => console.log("Server running on port 5000"));
 
